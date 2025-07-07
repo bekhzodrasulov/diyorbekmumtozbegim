@@ -75,13 +75,13 @@ html {
 
 .rose-middle-data {
   position: absolute;
-  left: -10px;
+  left: -30px;
   margin-top: 40px;
 }
 
 .rose-left-footer {
   position: absolute;
-  bottom: 110px;
+  bottom: 90px;
   left: -194px;
 }
 
@@ -98,7 +98,7 @@ html {
   }
 
   .hero h1 {
-    font-family: "Great Vibes", cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 130%;
@@ -474,6 +474,11 @@ html {
     transition-delay: 1s;
   }
   /* добавь больше при необходимости */
+
+  .rose-middle-data {
+    left: 20px;
+    margin-top: 40px;
+  }
 }
 
 /* ====== TABLET (601px – 1024px) ====== */
@@ -483,7 +488,7 @@ html {
   }
 
   .hero h1 {
-    font-family: "Great Vibes", cursive;
+    font-family: "Dancing Script", cursive;
     font-size: 80px;
     font-weight: 500;
     line-height: 130%;
@@ -828,7 +833,7 @@ html {
 }
 
 .hero h1 {
-  font-family: "Great Vibes", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 80px;
   font-weight: 500;
   line-height: 130%;
@@ -1169,7 +1174,6 @@ html {
 
 @media (max-width: 380px) {
   .rose-middle-data {
-    position: absolute;
     left: -10px;
     top: 320px;
     margin-top: 30px;
